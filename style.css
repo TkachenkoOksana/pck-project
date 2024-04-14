@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  font-size: clamp(1rem, 0.25rem + 2vw, 2.75rem);
+  color: #fff;
+  position: absolute;
+  top: 30%;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+  padding: 6px;
+  margin: 1px;
+}
+
+.header-list > li {
+  display: flex;
+  padding: 6px;
+  margin: 5px;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: 0;
+  color: currentColor;
+}
+
+.header {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  border: solid 2px black;
+}
+.header-list {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-item:hover {
+  color: #2196f3;
+}
+
+.header-item:active {
+  color: grey;
+}
+
+.header-link {
+  padding: 5px 10px 5px 25px;
+  color: #4c4e4f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header-link:hover {
+  color: #2196f3;
+}
+address {
+  margin-left: clamp(1rem, 5rem + 2vw, 10rem);
+}
+
+.email {
+  background-image: url(./imeges/icons/mail.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left;
+}
+.phone {
+  background-image: url(./imeges/icons/smartphone.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left;
+}
+
+.section {
+   
+  background-image: url(./imeges/Img.svg);
+  background-color: rgba(47, 48, 58, 0.5);
+  background-size: cover;
+  padding-bottom: 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+ 
+}
+  /*height:  clamp(15rem, 15rem + 2vw, 37.5rem);*/

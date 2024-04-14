@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 6px;
+    margin: 1px;
+   
+  }
+  .header-list>li {
+    display: flex;
+    padding: 6px;
+    margin: 5px;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;  
+  }
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: 0;
+    color: currentColor;
+  }
+  
+  .header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top {
+    border: solid 2px black;
+  }
+  .header-list {
+    font-size: 14px;
+    color: black;
+    display: flex;
+  }
+  
+  .header-item:hover {
+    color: #2196F3;
+  }
+  
+  .header-item:active {
+    color: grey;
+  }
+  
+  .header-link {
+    padding: 5px 10px 5px 25px;
+    color: #4c4e4f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+    .header-link:hover {
+      color: #2196F3;
+    }
+
+  .email {
+    background-image: url(./imeges/icons/mail.svg) grey;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left;
+   }
+  .phone {
+    background-image: url(./imeges/icons/smartphone.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left;
+ }
+  
+ 
+  /* ctrl+точка коментарии */
+  
