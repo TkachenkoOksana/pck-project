@@ -18,7 +18,6 @@ body {
    
   }
   .header-list>li {
-    display: flex;
     padding: 6px;
     margin: 5px;
     justify-content: space-around;
